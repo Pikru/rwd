@@ -1,0 +1,48 @@
+body{
+    font-family: 'verdana',sans-serif;
+    color: white;
+}
+
+#header {
+    background-image: url(../obrazy/man-1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    position: relative;
+    text-align: left;
+}
+div { 
+    position: absolute;
+    top: 50%;
+    font-size: 100%
+    
+}
+
+
+@media all and (max-width:1170px){
+    #header{ background-image: url(../obrazy/man-2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    position: relative;
+    text-align: left;
+    }
+div { 
+    top: 15%;
+    right: 5%;
+}
+@media all and (max-width:992px){
+    #header { background-image: url(../obrazy/man-1.jpg);
+     background-size: cover;
+    background-position: center;
+    height: 50vh;
+    position: relative;
+    text-align: center;
+    }
+    body{
+        color:black;
+    }
+    div{
+        top:100%;
+    }
+    }
