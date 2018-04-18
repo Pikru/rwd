@@ -1,31 +1,32 @@
 body{
     font-family: 'verdana',sans-serif;
     color: white;
+    margin: 0px;
+    padding: 0;
 }
 
 #header {
     background-image: url(../obrazy/man-1.jpg);
     background-size: cover;
     background-position: center;
-    height: 90vh;
+    height: 100vh;
     position: relative;
     text-align: left;
+    
 }
 div { 
     position: absolute;
     top: 50%;
+    transform: translateY(-50%);
     font-size: 100%
-    
+    display: inline-block;
+    width: 50%;
 }
 
 
 @media all and (max-width:1170px){
     #header{ background-image: url(../obrazy/man-2.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 90vh;
-    position: relative;
-    text-align: left;
+        height: 75vh;
     }
 div { 
     top: 15%;
@@ -33,16 +34,16 @@ div {
 }
 @media all and (max-width:992px){
     #header { background-image: url(../obrazy/man-1.jpg);
-     background-size: cover;
-    background-position: center;
-    height: 50vh;
-    position: relative;
-    text-align: center;
+        height: 50vh;
     }
     body{
         color:black;
     }
     div{
-        top:100%;
-    }
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+}
+
     }
