@@ -21,6 +21,8 @@ div {
     font-size: 100%
     display: inline-block;
     width: 50%;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -35,6 +37,9 @@ div {
 @media all and (max-width:992px){
     #header { background-image: url(../obrazy/man-1.jpg);
         height: 50vh;
+        background-position: right;
+        margin: 0 0;
+        
     }
     body{
         color:black;
